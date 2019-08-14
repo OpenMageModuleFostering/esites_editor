@@ -19,16 +19,15 @@
  */
 ?>
 
-<script src="/js/esites_editor/dist/js/vendor/requirejs/require.js"></script>
+<script src="<?php echo Mage::getBaseUrl('js');?>esites_editor/dist/js/vendor/requirejs/require.js"></script>
 <script>
 	(function (window) {
-		var doc = window.document,
-			esites_editor = {
+		var esites_editor = {
 				instances: [],
 				version: '<?php echo Mage::helper('editor')->getExtensionVersion(); ?>',
 				settings: <?php echo json_encode($this->getEditorConfig()); ?>,
 				init: function () {
-					requirejs(['/js/esites_editor/dist/js/app.js']);
+					requirejs(['<?php echo Mage::getBaseUrl('js');?>esites_editor/dist/js/app.js']);
 				}
 			};
 
