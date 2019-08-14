@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Esites_Editor",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "An advanced HTML editor that'll make it much easier to write clean markup for CMS pages and static blocks.",
+    "authors": [
+    {
+        "name": "Boye Oomens",
+        "email": "github@e-sites.nl"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
