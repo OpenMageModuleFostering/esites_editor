@@ -28,7 +28,7 @@
 class Esites_Editor_Model_Observer
 {
     /**
-     * Add additional settings to wysiwyg config (Emmet)
+     * Add additional settings to wysiwyg config
      *
      * @param Varien_Event_Observer $observer
      *
