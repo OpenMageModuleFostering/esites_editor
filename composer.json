@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "An advanced HTML editor that'll make it much easier to write clean markup for CMS pages and static blocks.",
+    "description": "An advanced code editor that'll make it much easier to write clean markup for CMS pages, static blocks and Transactional Emails.",
     "authors": [
     {
         "name": "Boye Oomens",
