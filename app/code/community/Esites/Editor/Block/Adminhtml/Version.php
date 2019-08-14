@@ -17,27 +17,10 @@
  * @copyright   Copyright (c) 2015 E-sites (http://www.e-sites.nl)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
-?>
-
-<script src="/js/esites_editor/dist/js/vendor/requirejs/require.js"></script>
-<script>
-	(function (window) {
-		var doc = window.document,
-			esites_editor = {
-				instances: [],
-				version: '<?php echo Mage::helper('editor')->getExtensionVersion(); ?>',
-				settings: <?php echo json_encode($this->getEditorConfig()); ?>,
-				init: function () {
-					requirejs(['/js/esites_editor/dist/js/app.js']);
-				}
-			};
-
-		if ( 'addEventListener' in window ) {
-			doc.addEventListener('DOMContentLoaded', esites_editor.init);
-		} else {
-			window.onload = esites_editor.init;
-		}
-
-		window.esites_editor = esites_editor;
-	}(window));
-</script>
+class Esites_Editor_Block_Adminhtml_Version extends Mage_Adminhtml_Block_System_Config_Form_Field
+{
+    protected function _getElementHtml(Varien_Data_Form_Element_Abstract $element)
+    {
+        return (string) Mage::helper('editor')->getExtensionVersion();
+    }
+}
