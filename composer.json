@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Esites_Editor",
+    "name": "OpenMageModuleFostering\/Esites_Editor",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "An advanced code editor that'll make it much easier to write clean markup for CMS pages, static blocks, product pages and Transactional Emails.",
     "authors": [
-    {
-        "name": "Boye Oomens",
-        "email": "boomens@e-sites.net"
-    }
-],
+        {
+            "name": "Boye Oomens",
+            "email": "boomens@e-sites.net"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
