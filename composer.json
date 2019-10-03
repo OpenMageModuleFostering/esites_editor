@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Esites_Editor",
+    "name": "openmage-module-fostering\/esites_editor",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "An advanced code editor that'll make it much easier to write clean markup for CMS pages, static blocks, product pages and Transactional Emails.",
     "authors": [
